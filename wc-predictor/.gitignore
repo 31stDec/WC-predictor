@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data (thường quá lớn / không nên commit)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
